@@ -1,0 +1,38 @@
+# Données
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
+*.tsv
+
+# Modèles
+models/*
+
+# Visualisations
+plots/*
+
+# Fichiers générés
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+dist
+build
+*.tmp
+temp
+*.log
+
+# IDE et OS
+.idea
+.vscode
+.DS_Store
+
+# Environnements virtuels
+.venv
+venv
+env
+
+# Secrets
+credentials.json
+passwords.txt
+.env
